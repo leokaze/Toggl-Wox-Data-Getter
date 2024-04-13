@@ -8,7 +8,7 @@ En Obsidian se puede utilizar el plugin [Charts](https://github.com/phibr0/obsid
 
 Para instalar este plugin solo copia la carpeta "Toggl-Wox-Data-Getter" a la carpeta de plugins de WOX por lo general en: "C:\Users\USER_NAME\AppData\Local\Wox\app-VERSION\Plugins\". Habilita el plugin en las configuraciones y asígnale un atajo, en mi caso utilicé las letras "tg"
 
-![alt text](images/wox-settings.png)
+![alt text](Images/wox-settings.png)
 
 Es necesario tener [Python](https://www.python.org/downloads/) instalado, para el desarrollo de este script utilicé la versión de Python 3.12.2
 
@@ -47,7 +47,7 @@ También puedes cambiar la zona horaria si así lo necesitas.
 ## Uso
 
 En Wox después de poner las letras de acceso al plugin de toggl (en mi caso "tg") aparece un menú contextual de tres opciones:
-![wox-snapshot](images/wox-snapshot.png)
+![wox-snapshot](Images/wox-snapshot.png)
 
 - **Yesterday:** Una sumatoria de las entradas registradas el día anterior.
 - **Last Month:** Una sumatoria de las entradas registradas el mes pasado.
@@ -55,6 +55,6 @@ En Wox después de poner las letras de acceso al plugin de toggl (en mi caso "tg
 
 El resultado de escoger alguna de las opciones nos devuelven los datos en formato de markdown para obsidian y se ven de la siguiente manera:
 
-![alt text](images/obsidian-snapshot.png)
+![alt text](Images/obsidian-snapshot.png)
 
 Se puede observar que los datos recibidos se ordenan de mayor a menor y se agrupan por proyecto y actividad, también hace una sumatoria de cada proyecto y nos muestra la fecha en que se recopilaron esos datos.
