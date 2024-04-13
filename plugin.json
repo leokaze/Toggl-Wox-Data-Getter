@@ -1,0 +1,13 @@
+{
+    "ID":"2f4e384e-76ce-45c3-aea2-b16f5e5c328f",
+    "ActionKeyword":"tg",
+    "Name":"Toggl Data Getter",
+    "Description":"Get Data from Toggle API",
+    "Author":"leokaze",
+    "Version":"0.1",
+    "Language":"python",
+    "Website":"https://github.com/leokaze",
+    "IcoPath":"Images\\toggl-logo.png",
+    "ExecuteFileName":"main.py",
+    "Disabled": true
+}
