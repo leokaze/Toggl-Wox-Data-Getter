@@ -15,7 +15,7 @@ class Toggl():
         self.toggl_url = "https://api.track.toggl.com/api/v9/me/time_entries?"
         self.from_date = ""
         self.to_date = ""
-        self.credentials = b'YOUR_EMAIL:YOUR_PASSWORD'
+        self.credentials = b'caceleo@gmail.com:nuntLntkgkUcOQ6SQqUq'
         self.time_zone = 'America/La_Paz'
 
     def GET_YESTERDAY_DATA(self):

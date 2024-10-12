@@ -14,7 +14,7 @@ Es necesario tener [Python](https://www.python.org/downloads/) instalado, para e
 
 ### Módulos de python
 
-Este script utiliza dos módulos extra:
+Este script utiliza tres módulos extra:
 
 - [pyperclip](https://pypi.org/project/pyperclip/) para copiar los datos generados al portapapeles.
 ```batch
@@ -24,6 +24,11 @@ pip install pyperclip
 - [pytz](https://pypi.org/project/pytz/) para formatear las fechas y horas de registro a una zona horaria en específico, en mi caso La Paz, Bolivia.
 ```batch
 pip install pytz
+```
+
+- [requests](https://pypi.org/project/requests/) para hacer llamados http
+```batch
+pip install requests
 ```
 
 Instala estos dos módulos si no los tienes instalados ya.
@@ -58,3 +63,12 @@ El resultado de escoger alguna de las opciones nos devuelven los datos en format
 ![alt text](Images/obsidian-snapshot.png)
 
 Se puede observar que los datos recibidos se ordenan de mayor a menor y se agrupan por proyecto y actividad, también hace una sumatoria de cada proyecto y nos muestra la fecha en que se recopilaron esos datos.
+
+## Test
+
+El archivo test_toggl.py se puede utilizar para ejecutar el script desde la linea de comandos sin tener instalado WOX.
+
+Para ejecutarlo puedes utilizar la terminal de windows con el comando:
+```batch
+python .\test_toggl.py
+```
